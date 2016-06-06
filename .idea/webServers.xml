@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="afe5b01c-ca3d-42fe-b7a4-3d6a2cdb27ee" name="EC2" url="http://52.10.35.103">
+        <fileTransfer host="52.10.35.103" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

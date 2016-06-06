@@ -1,0 +1,36 @@
+
+
+{{#if valid_mugshot_count}}
+    <h1>Mugshot {{index}}</h1>
+    <div class="suspect">
+        <div class="img">
+            <img src="/images/suspect.png">
+        </div>
+        <div class="profile">
+            {{#if traits}}
+                {{#each traits}}
+                    <p>{{@key}}: {{this}}</p><br>
+                {{/each}}
+            {{/if}}
+        </div>
+    </div>
+
+    <div class="next">
+        <form action="/choose-suspect" method="post">
+            <input type="submit" name="this_suspect" value="choose">
+        </form>
+        <form action="/next-suspect" method="post">
+            <input type="submit" name="next_suspect" value="next >">
+        </form>
+    </div>
+{{else}}
+    <h1>Insufficient Mugshot Matches</h1>
+    <h3>The suspect has too many unique features
+        to build an objective lineup.</h3>
+    <h3>A lineup cannot be used as evidence.</h3>
+    <h4>Admin: Try regenerating database!</h4>
+{{/if}}
+
+
+
+

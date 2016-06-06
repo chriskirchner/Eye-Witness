@@ -1,0 +1,113 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  display: inline-block;
+  margin: 5px 10px auto;
+}
+
+fieldset {
+  border-style: dotted;
+  border-radius: 5px;
+  border-color: rgba(0,0,0,0.5);
+  border-width: px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 10px;;
+}
+
+legend {
+  color: teal;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+p.submit {
+  float: right;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 3px;
+  background-color: white;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+input {
+  display: inline;
+  border: 2px solid;
+  border-color: teal;
+  border-radius: 3px;
+  background-color: white;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  color: teal;
+}
+
+form {
+  display: inline;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: grey;
+  width: 400px;
+}
+
+.next {
+  margin: 10px;
+  text-align: center;
+}
+
+.next form input {
+  color: teal;
+  font-size: large;
+  padding: 5px 10px;
+}
+
+
+.img {
+  margin: 0px auto;
+  display: inline-block;
+  margin: 20px;
+}
+
+.profile {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  text-align: left;
+  font-size: large;
+  position: absolute;
+}
+
+body {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
